@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232f3e;
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    width: 350px;
+    height: 130px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.quadro {
+    background: rgba(255, 255, 255, 0.5);
+    width: 1300px;
+    height: 850px;
+    margin: 35px;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 25px 0 25px 0;
+    margin: 25px 25px 35px 25px;
+    opacity: 0.9;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+    transition: 800ms;
+    cursor: pointer;
+}
+
+
+.secao{
+    font-size: 2.0em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+    color: #232f3e;
+}
+
+.numSecao {
+    background-color: #ff9900;
+    color: #232f3e;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    /*text-shadow: 0 1px 0 rgba(255,255,255,0.2);*/
+    border-radius: 100%;
+}
+
+.inputs {
+    text-align: center;
+}
+
+.input {
+    width: 380px;
+    height: 50px;
+    background-color: rgb(216, 215, 215);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.buscarBt {
+    width: 380px;
+    height: 50px;
+    background-color: #ff9900;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #232f3e;
+    margin: 3%; 
+    cursor: pointer;   
+}
+
+.buscarBt:hover {
+    transform: translateY(-3px);
+    background-color: rgba(252, 201, 125, 0.6);
+    transition: transform ease-in 800ms;
+}
+
+.msgErro {
+    color: red;
+}
+
+.submeter{
+    text-align: center;
+    justify-content: center;
+}
